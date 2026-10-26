@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+}
+
+ 
+.ancho {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+ 
+.contenedor_contacto {
+    display: inline-block;
+    vertical-align: middle;
+    width: 46%;
+    text-align: left;
+}
+ 
+.contenedor_contacto h2 {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 45px;
+    color: #3b4fd8;
+}
+ 
+.contenedor_contacto h1 {
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+ 
+.contenedor_contacto p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 10%;
+}
+ 
+
+.contenedor_formulario {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+}
+ 
+.contenedor_formulario form {
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px #0000001a;
+}
+ 
+.contenedor_formulario input {
+    width: 46%;
+    margin: 0 1.5% 20px;
+    padding: 15px;
+    vertical-align: top;
+    border: none;
+    /* border-bottom: 1px solid #999999; */
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+}
+ 
+.contenedor_formulario input::placeholder {
+    opacity: 1;
+}
+
+.contenedor_formulario input:focus {
+border: 3px red solid;
+}
+
+.continuacion select,
+.continuacion input {
+    display: block;
+    width: 97%;
+    margin: 0 1.5% 20px;
+    padding: 15px;
+    border: none;
+    /* border-bottom: 1px solid #999999; */
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+}
+ 
+.continuacion input:focus{
+    border: 3px red solid;
+}
+
+.continuacion select:focus {
+
+    border-color: 3px red solid;
+}
+
+.continuacion button {
+    display: block;
+    width: 97%;
+    margin: 10px 1.5% 0;
+    padding: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1414e0;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 
+.continuacion button:hover {
+    background-color: #0d0db0;
+}

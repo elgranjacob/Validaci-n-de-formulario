@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contáctanos</title>
+</head>
+ 
+<body>
+ 
+    <div class="ancho">
+        <div class="contenedor_contacto">
+            <h2>Contáctanos</h2>
+            <h1>¿Necesitas ayuda para hacer crecer tu negocio?</h1>
+            <p>Solicita más información y juntos idearemos la estrategia perfecta para cumplir tus metas.</p>
+        </div>
+ 
+        <div class="contenedor_formulario">
+            <form action="algo.php" method="post" name="formulario" id="formulario">
+                <input id ="nombre" type="text" placeholder="Nombre*">
+                <input id="apellido" type="text" placeholder="Apellidos*">
+                <input id="email" type="email" placeholder="Correo electrónico*">
+                <input id="telefono" type="tel" placeholder="Número de teléfono móvil*">
+                <div class="continuacion">
+                    <select name="presupuesto" id="presupuesto">
+                        <option value="">Selecciona tu presupuesto</option>
+                        <option value="bajo">De $18,000 - $25,000</option>
+                        <option value="medio">De $25,000 - $45,000</option>
+                        <option value="alto">De $45,000 - $100,000</option>
+                    </select>
+                    <input id="empresa" type="text" placeholder="Nombre de la empresa">
+                    <select name="industria" id="industria">
+                        <option value="">Selecciona una industria de tu empresa*</option>
+                        <option value="imobiliaria">Inmobiliaria</option>
+                        <option value="educacion">Educaión</option>
+                        <option value="turismo">Turismo</option>
+                        <option value="energias-renovables">Energías renovables</option>
+                        <option value="servicios-profesionales">Servicios profesionales</option>
+                        <option value="startup">Startup</option>
+                        <option value="ecommerce">Ecommerce</option>
+                        <option value="financiera">Financiera</option>
+                        <option value="salud">Salud</option>
+                        <option value="agencia-digital">Agencia digital</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <input id="sitio" type="text" placeholder="Sitio Web">
+                    <button id="validar" type="button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="validaciones.js"></script>
+</body>
+ 
+</html>
